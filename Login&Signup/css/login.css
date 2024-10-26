@@ -1,0 +1,108 @@
+body{
+    background-color: #cbdefc;
+}
+.container{
+    display: flex;
+    padding-right: 200px;
+    padding-left: 200px;
+    height: 100%;
+}
+.company-name{
+    position: relative;
+    top: 250px;
+    word-wrap: break-word;
+    width: 480px;
+}
+.company-name h1{
+    color: blue;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company-name p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.login-form{
+    width: 380px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 200px;
+}
+.login-form form{
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login-form form input{
+    width: 92.5%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(45, 44, 44, 0.142);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.login-form form input , textarea {
+    background-color: rgba(255, 255, 255, 0.84);
+}
+.login-form form button{
+    width: 95%;
+    border: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.718);
+}
+.login-form form button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+}
+.login-form form p{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.login-form form .btn-signup{
+    height: 45px;
+    width: 200px;
+    background-color: rgba(4, 167, 4, 0.97);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.login-form form .btn-signup:hover{
+    background-color: rgba(4, 167, 4, 0.732);
+    cursor: pointer;
+
+}
+.login-form form .btn-signup a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centerdiv{
+    display: flex;
+    justify-content: center;
+}
+.last-txt{
+    margin-top: 25px;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}

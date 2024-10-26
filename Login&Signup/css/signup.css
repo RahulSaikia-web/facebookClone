@@ -1,0 +1,121 @@
+body {
+  background-color: #cbdefc;
+}
+.container {
+  margin: auto;
+  width: 380px;
+  margin-top: 20px;
+}
+.container .cname {
+  width: 100%;
+  text-align: center;
+}
+.container .cname h1 {
+  color: blue;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container form {
+  width: 95%;
+  margin-left: 2.5%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.container .header {
+  width: 100%;
+  text-align: center;
+}
+ p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+.container .inputs input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.container .inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.container .dob{
+    display: flex;
+    justify-content: space-between;
+}
+.container .dob select{
+    height: 35px;
+    width: 105px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    margin-top: 10px;
+     margin-top: -8px;
+
+}
+.container .gender-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container .gender-box .gender{
+        height: 35px;
+        width: 105px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.233);
+        margin-top: 10px;
+         margin-top: -8px;
+         text-align: center;
+         line-height: 35px;
+}
+.container .gender-box .gender input{
+    margin-left: 20px;
+}
+.container .email-password input{
+    width: 97%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(45, 44, 44, 0.142);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.container button{
+    width: 45%;
+    border: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color: rgb(10, 179, 10);
+}
+.container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgba(10, 179, 10, 0.873);
+}
+.container .goto-login{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.container .goto-login a{
+    text-decoration: none;
+    color: blue;
+}
